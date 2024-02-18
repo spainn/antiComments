@@ -18,7 +18,7 @@ function add_css(file) {
     ),
     link;
 
-    if (check_link == null) {
+    if (check_link === null) {
         link = document.createElement("link");
         link.href = chrome.extension.getURL("css/" + file);
         link.type = "text/css";
