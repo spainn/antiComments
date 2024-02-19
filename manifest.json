@@ -1,5 +1,9 @@
 {
     "manifest_version": 3,
     "name": "Anti-comments",
-    "version": "1.0.0"
+    "version": "0.0.1",
+    "description": "Blocks the comment section on Crunchyroll",
+    "icons": {
+        "128": "images/icon-128.png"
+    }
 }
